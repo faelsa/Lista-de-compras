@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* src/index.css */
+
+/* Remove os botões de subir/descer no Chrome, Safari e Edge */
+.no-spinners::-webkit-inner-spin-button,
+.no-spinners::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove os botões de subir/descer no Firefox */
+.no-spinners {
+  -moz-appearance: textfield;
+}
